@@ -1,0 +1,30 @@
+/*=== цвета ===*/
+/*=== для градиента === */
+/* желты и красный */
+/* #fbb03b #d4145a */
+/* красный и фиолетовый */
+/* #ed1e79 #662d8c */
+/*==================================================*/
+	/* зеленый и темнозеленый */
+	/*background: #2ecc71;*/
+	/*background: #27ae60;*/
+	/* желтый и темножелтый */
+	/*background: #f1c40f;*/
+	/*background: #f39c12;*/
+	/* красный и темнокрасный */
+	/*background: #e74c3c;*/
+	/*background: #c0392b;*/
+/*==================================================*/
+body {
+    /* font-family: Consolas, 'Courier New', monospace; */
+    font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: #383636; */
+    background: #151515;
+    color: #f1b566;
+}
+
+/*********BORDER ALL********/
+/* *{outline: 1px solid #fbb03b; outline-offset: -1px; } */
+/***************************/
