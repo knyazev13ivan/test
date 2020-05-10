@@ -5,26 +5,90 @@
 /* красный и фиолетовый */
 /* #ed1e79 #662d8c */
 /*==================================================*/
-	/* зеленый и темнозеленый */
-	/*background: #2ecc71;*/
-	/*background: #27ae60;*/
-	/* желтый и темножелтый */
-	/*background: #f1c40f;*/
-	/*background: #f39c12;*/
-	/* красный и темнокрасный */
-	/*background: #e74c3c;*/
-	/*background: #c0392b;*/
+/* зеленый и темнозеленый */
+/*background: #2ecc71;*/
+/*background: #27ae60;*/
+/* желтый и темножелтый */
+/*background: #f1c40f;*/
+/*background: #f39c12;*/
+/* красный и темнокрасный */
+/*background: #e74c3c;*/
+/*background: #c0392b;*/
 /*==================================================*/
 body {
-    /* font-family: Consolas, 'Courier New', monospace; */
-    font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    /* background: #383636; */
-    background: #151515;
-    color: #f1b566;
+	/* font-family: Consolas, 'Courier New', monospace; */
+	font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	/* background: #383636; */
+	background: #151515;
+	color: #f1b566;
+}
+
+.tw {
+	margin: 700px 20px;
+	/* display: none; */
+}
+
+.container {
+	margin: 180px 270px;
+}
+@media screen and (min-device-width: 1350px) {
+	.container {
+		margin: 180px 0px 180px 270px;
+	}
+}
+.ml-20 {
+	margin-left: 20px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.but {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ed1e79;
+	background: transparent;
+	border-width: 2px;
+	border-color: #ff7f00;
+	border-style: solid;
+	border-image: linear-gradient(25deg,  #662d8c 0%, transparent 33%, transparent 67%, #662d8c 100%);
+	border-image-slice: 1;
+}
+
+.form {
+	width: 140px;
+	padding: 3px 5px;
+	font-size: 20px;
+	background: #2e2e2e;
+	background: linear-gradient(15deg, #662d8c 0%, #ed1e79 50%);
+	color: #a920d3;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(90deg, #00deff 0%, transparent 80%);
+	border-image-slice: 1;
+}
+
+#result {
+	width: 300px;
+	height: 30px;
+	-webkit-text-fill-color: #ed1e7863;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(10deg, #00deff 0%, transparent 40%);
+	border-image-slice: 1;
 }
 
 /*********BORDER ALL********/
+* {
+	font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+	/* outline: 1px solid #fbb03b; outline-offset: -1px; */
+}
+
 /* *{outline: 1px solid #fbb03b; outline-offset: -1px; } */
 /***************************/
